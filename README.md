@@ -1,6 +1,5 @@
 # TOP-GoogleHompeage
 
-Introduction
 
-For this mini-project, I deconstruct the Google homepage and rebuild it. Don’t worry if the links don’t go anywhere and the search box doesn’t do anything when you submit it. The goal is to start thinking about how elements get placed on the page and roughly how they get styled and aligned.
+For this mini-project, I deconstructed the Google homepage and rebuild it. I wanted to primarily use this project to showcase my use of flex display.
 

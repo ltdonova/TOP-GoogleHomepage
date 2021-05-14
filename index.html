@@ -2,8 +2,9 @@
     <head>
         <meta charset="utf-8">
         <title>Google</title>
-        <!-- <link rel="stylesheet" href="/styling.css"> -->
-        <link rel="stylesheet" href="/flexing.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+        <link rel="stylesheet" href="/styling.css">
 
 
         
@@ -11,31 +12,65 @@
     </head>
 
     <body>
-        <container>
-        <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"> 
-        </container>
-        
-        <container>
-        <form>
-            <input type="text">
-        </form>
-        </container>
+       <div class="body">
+        <div class="top-navbar">
+          <ul >
+            <div class="top-navbar-left">
+              <li><a>About</a></li>
+              <li><a>Store</a></li>
+            </div>
+            <div class="top-navbar-right">
+              <li><a>Gmail</a></li>
+              <li><a>Images</a></li>
+              <li><span class="material-icons apps">apps</span></li>
+              <li><button type="button" id="signin">Sign In</button></li>
 
-       <container>
+            </div>
+          </ul>
+        </div>
+        <div class="img">
+        <img  src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"> 
+        </div>
+
+        <div class="search">
+
+        <form>
+        <div class="searchbar">
+            <span class="material-icons searchicon">search</span>
+            <input type="text">
+            <span class="material-icons voiceicon"> mic </span>        
+        </div>
+
+        <div class="buttons">
         <button type="button">Google Search</button>
         <button type="button">I'm Feeling Lucky</button>
-    </container>
+        </div>
+        </form>
 
-        
-        <ul id="bottom-nav">
+        </div>
+
+        <div class="space">
+
+
+            
+        </div>
+
+        <div class="bottom-navbar">
+        <ul >
+          <div class="bottom-navbar-left">
             <li><a>Advertising</a></li>
             <li><a>Business</a></li>
             <li><a>How Search works</a></li>
+          </div>
+          <div class="bottom-navbar-right">
             <li><a>Privacy</a></li>
             <li><a>Terms</a></li>
             <li><a>Settings</a></li>
+          </div>
         </ul>
-        
-          
+        </div>
+
+
+      </div>
     </body>
 </html>
